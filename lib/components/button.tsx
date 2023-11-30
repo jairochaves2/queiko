@@ -5,5 +5,5 @@ export interface ButtonProps
 }
 
 export function Button({ text, children, ...rest }: ButtonProps) {
-  return <button {...rest}>{text ?? children}</button>;
+  return <button {...rest}>{text || children}</button>;
 }
