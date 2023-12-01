@@ -1,0 +1,20 @@
+.button {
+    border: none;
+    padding: 8px 16px;
+    background-color: #0070a3;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &.fullWidth {
+        width: 100%;
+    }
+    
+    &:hover {
+        background-color: #005088;
+    }
+    &:active {
+        background-color: #004b7c;
+        color: #ddd;
+    }
+}
